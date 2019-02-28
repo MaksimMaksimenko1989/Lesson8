@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,16 +15,18 @@
         
 
         <fieldset>
-                <input type="text" name="fname" required><br>
-                <input type="text" name="sname"><br>
+                <input type="text"   name="fname" required><br>
+                <input type="text"   name="sname"><br>
+                <label for="age">Возраст</label>
                 <input type="number" name="age" min="1" max="100"><br>
+                <input type="email"  name="mail"><br>
+                <input type="date"   name="bday" ><br>
+                <input type="tel"    name="phone" required><br>
+                <input type="email"  name="mymail" value="maks16082013@gmail.com" disabled><br>
                 
+                <input type="submit" value="Отослать" formmethod="POST" formnovalidate>
 
 
-
-
-
-
-            </fieldset>
+     </fieldset>
 </body>
 </html>
